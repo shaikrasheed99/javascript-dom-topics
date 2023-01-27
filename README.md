@@ -1,8 +1,11 @@
 # JavaScript - Document Object Model
 
 Document Object Model (DOM) is an programming interface for web document. 
+
 When a web page is loaded, the browser creates a Document Object Model of the page.
+
 The HTML DOM model is constructed as a **tree** of **Objects**. 
+
 So that JavaScript can get access to change all the elements of the document.
 
 Document will have methods and properties.
