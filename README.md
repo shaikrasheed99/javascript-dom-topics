@@ -59,3 +59,23 @@ Document will have methods and properties.
     * in above example, all the html `p` tags will be selected and returns them as `HTMLCollection`.
     * `HTMLCollection` is a array but we cannot loop it through `for-each` loop.
     * can be accessed through indexes.
+
+## Properties
+
+* `innerHTML`
+    * used to set or return the whole element with html tags.
+* `innerText`
+    * used to set or return the text inside element.
+    * it return all its children except CSS hidden text spacing and tags.
+* `textContent`
+    * used to set or return the text inside element.
+    * it return all its children including CSS hidden text spacing and tags.
+
+    ```javascript
+    const element = `<p>Html block added by the innerHTML property</p>`
+    const text = `sample text`
+    
+    paragraph.innerHTML += element;
+    paragraph.innerText += text;
+    paragraph.textContent += text;
+    ```
