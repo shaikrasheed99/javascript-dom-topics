@@ -88,3 +88,19 @@ Document will have methods and properties.
 * `hasAttributes` - used to check the element has attributes.
 * `removeAttribute` - used to remove the particular attribute.
 * `createAttribute` - used to create a new attribute.
+
+## CSS Styles
+
+We can modify or add the css styles to the element by two ways.
+
+1. `style` property
+    ```javascript
+    const paragraph = document.querySelector('.para');
+    para.style.border = '2px solid pink';
+    ```
+
+2. `setAttribute` property
+    ```javascript
+    const paragraph = document.querySelector('.para');
+    para.setAttribute('style', 'display: inline-block');
+    ```
