@@ -79,3 +79,12 @@ Document will have methods and properties.
     paragraph.innerText += text;
     paragraph.textContent += text;
     ```
+
+## Attributes
+
+* `getAttribute` - used to get the value of element's attribute.
+* `setAttribute` - used to set the value of element's attribute.
+* `hasAttribute` - used to check the element has particular attribute.
+* `hasAttributes` - used to check the element has attributes.
+* `removeAttribute` - used to remove the particular attribute.
+* `createAttribute` - used to create a new attribute.
