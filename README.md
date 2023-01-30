@@ -127,3 +127,10 @@ We can modify or add the css styles to the element by two ways.
     const paragraph = document.querySelectorAll('p');
     paragraph.classList.toggle('success');
     ```
+
+## Parents, Children & Siblings
+
+* `children` - returns HTMLCollection of children.
+* `parentNode` - returns the parent element.
+* `previousElementSibling` - returns the previous sibling.
+* `nextElementSibling` - returns the next sibling.
