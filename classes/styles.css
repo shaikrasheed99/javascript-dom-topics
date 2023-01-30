@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.header {
+    color: coral;
+}
+
+.success {
+    color: violet;
+}
+
+.error {
+    color: crimson;
+}
