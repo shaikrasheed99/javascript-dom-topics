@@ -79,6 +79,18 @@ Document will have methods and properties.
     paragraph.innerText += text;
     paragraph.textContent += text;
     ```
+## Create & Remove elements
+
+* `createElement()` - function which takes input of which element has to be created.
+* `remove()` - function which will remove the element from the document object.
+    ```javascript
+    const ul = document.querySelector('ul');
+    const item = document.createElement('li');
+    item.textContent = `This is the item added`;
+    ul.append(item);
+    const items = document.querySelectorAll('li');
+    items[3].remove();
+    ```
 
 ## Attributes
 
