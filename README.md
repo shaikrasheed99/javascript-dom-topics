@@ -104,3 +104,26 @@ We can modify or add the css styles to the element by two ways.
     const paragraph = document.querySelector('.para');
     para.setAttribute('style', 'display: inline-block');
     ```
+
+## Add & Remove classes
+
+* Add classes:
+    * adding new classes to the element.
+    ```javascript
+    const paragraph = document.querySelectorAll('p');
+    paragraph.classList.add('success');
+    ```
+
+* Remove classes:
+    * removing exsisting classes from the element.
+    ```javascript
+    const paragraph = document.querySelectorAll('p');
+    paragraph.classList.remove('success');
+    ```
+
+* Toggle classes:
+    * turning on & off of the classes for the element.
+    ```javascript
+    const paragraph = document.querySelectorAll('p');
+    paragraph.classList.toggle('success');
+    ```
