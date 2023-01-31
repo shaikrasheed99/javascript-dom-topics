@@ -146,3 +146,23 @@ We can modify or add the css styles to the element by two ways.
 * `parentNode` - returns the parent element.
 * `previousElementSibling` - returns the previous sibling.
 * `nextElementSibling` - returns the next sibling.
+    ```javascript
+    const paragraph = document.querySelector('p');
+    console.log(paragraph.children);
+    console.log(paragraph.parentNode);
+    console.log(paragraph.previousElementSibling);
+    console.log(paragraph.nextElementSibling);
+    ```
+
+## Mouse Events
+
+* `click` - event occurs when a click happens on elements.
+* `mouseover` - event occurs when a mouse pointer enters elements.
+* `mousemove` - event occurs when a mouse pointer moves on elements.
+* `copy` - event occurs when copy action happens on elements.
+    ```javascript
+    const button = document.querySelector('.btn');
+    button.addEventListener('click', () => {
+        console.log('clicked');
+    });
+    ```
