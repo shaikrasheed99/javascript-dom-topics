@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.form-input {
+    width: 20vw;
+    height: 3.9vh;
+    border: 4px solid;
+    border-radius: 1.2em;
+    font-size: 1.2em;
+    padding-left: 0.8em;
+    outline: none;
+}
+
+.form-button {
+    width: 7vw;
+    height: 4.8vh;
+    font-size: 1.2em;
+    border: 2px solid;
+    border-radius: 1.2em;
+}
+
+.result {
+    margin-top: 1.2em;
+}
+
+.success {
+    width: 20vw;
+    height: 3.9vh;
+    border: 4px solid;
+    border-radius: 1.2em;
+    font-size: 1.2em;
+    padding-left: 0.8em;
+    outline: none;
+    border-color: violet;
+}
+
+.error {
+    width: 20vw;
+    height: 3.9vh;
+    border: 4px solid;
+    border-radius: 1.2em;
+    font-size: 1.2em;
+    padding-left: 0.8em;
+    outline: none;
+    border-color: crimson;
+}
