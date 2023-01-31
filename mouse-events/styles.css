@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.box {
+    width: 150px;
+    height: 200px;
+    background-color: lightgray;
+    display: inline-block;
+}
