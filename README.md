@@ -167,6 +167,17 @@ We can modify or add the css styles to the element by two ways.
     });
     ```
 
+## Keyboard Events
+
+* `keydown` - event occurs when the key is pressed.
+* `keyup` - event occurs when the key is released.
+    ```javascript
+    const input = document.querySelector('input');
+    input.addEventListener('keyup', () => {
+        console.log('keyup event');
+    });
+    ```
+
 ## More about Events
 
 * `event-bubbling` - event propagates from the target to way up through the document object.
