@@ -166,3 +166,19 @@ We can modify or add the css styles to the element by two ways.
         console.log('clicked');
     });
     ```
+
+## More about Events
+
+* `event-bubbling` - event propagates from the target to way up through the document object.
+* `event-capturing` - event propagates opposite of bubbling similar to top to bottom approach.
+* `event-delegation`
+    * can provide performance benefits by assign the event listener to the parent elements.
+    * can be used to add or remove elements from the DOM.
+    ```javascript
+    const list = document.querySelector('ul');
+    list.addEventListener('click', (event) => { // listener to the parent
+        if(event.target.tagName === 'LI') {
+            event.target.remove(); // remove item from list 
+        }
+    });
+    ```
